@@ -8,3 +8,5 @@ function words($sentance){
 
 dump(words("This is a sentence")); // ["This", "is", "a", "sentence"]
 dump(words("Hello, my name is Dolemite")); // ["Hello", "my", "name", "is", "Dolemite"]
+
+// alternative regex "/\W+/" \W = not [a-ZA-Z_]

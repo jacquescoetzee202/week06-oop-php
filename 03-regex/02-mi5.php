@@ -3,7 +3,7 @@
 require __DIR__ . "/vendor/autoload.php";
 
 function mi5($string){
-    return preg_match("/^00\d/",$string) === 1;
+    return preg_match("/^00\d$/",$string) === 1;
 };
 
 dump(mi5("007")); // true

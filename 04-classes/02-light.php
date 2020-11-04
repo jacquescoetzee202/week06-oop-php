@@ -5,15 +5,18 @@ require __DIR__ . "/vendor/autoload.php";
 class LightSwitch {
     private $onState = false;
     
-    public function isOn(){
+    public function isOn()
+    {
         return $this->onState;
     }
 
-    public function turnOn(){
+    public function turnOn()
+    {
         $this->onState = true;
     }
 
-    public function turnOff(){
+    public function turnOff()
+    {
         $this->onState = false;
     }
 }
